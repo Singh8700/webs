@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Web templates</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <!--CDN LINK FOR FAV ICON--->
+<script src="https://kit.fontawesome.com/df6f65b7e3.js" crossorigin="anonymous"></script>
+<!-- fav icon CDN LINK--->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+  <body>
+    <div class="header" id="header">
+      <div class="container">
+        <nav>
+          <img src="logo.png" alt="logo" width="100px"/>
+          <ul id="sidemenu">
+            <li>
+              <a href="#header">Home</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#service">Services</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <!-- X iconn -->
+            <p href="#" class="icon icon1" onclick="closemenu()">&#9780;</p>
+          </ul>
+          <!--icon create -->
+            <p href="#" class="icon icon2"
+            onclick="openmenu()">&#9776;</p>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, I am <span>Rohit</span><br />from India. </h1>
+        </div>
+        <div class="tb">
+          <a href="#header">&#9954;</a>
+        </div>
+      </div>
+    </div>
+    <!---about section --->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+             <div class="aboutdark">
+              
+            </div>
+            <img src="pic1.png" alt="Pic" />
+            
+          </div>
+          <div class="col2">
+            <h1>About Me</h1>
+            <p>
+              Hi <br />My name is Rohit and I am from India. I am a UI/UX Designer. I have created many UI designs and I am deploying all the designs online. I am a very honest and hardworking person in my works.I know you will like the Design.<br />
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+               Skills
+              </p>
+             <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Hyper Text Markup Language</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">
+                  </div>
+                </div>
+                 <p>
+                    (HTML).<br />We create web site with the help of HTML.
+                  </p>
+                </li>
+                <li><span>Casecading Style Sheet</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">
+                  </div>
+                </div>
+                 <p> (CSS).<br /> CSS used to decorate and look good on a web site.
+                  </p>
+                </li>
+                <li><span>JavaScript</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:65%">
+                  </div>
+                </div>
+                 <p> (JS).<br /> Amazing web sites are created with the help of JavaScript. Javascript is used to execute actions in a web site.
+                  </p>
+                </li>
+                <li><span>Python</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">
+                  </div>
+                </div>
+                </li>
+                <li><span>Python Django</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">
+                  </div>
+                </div>
+                </li>
+                <li><span>Photoshop</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%">
+                  </div>
+                </div>
+                </li>
+                <li><span>Tally ERP9</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">
+                  </div>
+                </div>
+                </li>
+                <li><span>CoralDraw</span>
+                <div class="progress mb-4">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">
+                  </div>
+                </div>
+                </li>
+              </ul>
+            </div>
+            <!--Skill content is end here-->
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>
+                    2022 - Current
+                  </span>
+                  <br />
+                 
+                 I am giving computer class now Tally ERP 9, Flash, Photoshop and Web Designing.
+                  </li>
+                  <li>
+                    <span>
+                      2021-2022
+                    </span>
+                    <br />
+                    I have created smalls projects. likes 👉 DOB gameing system, Login Forms, Database etc.
+                  </li>
+              </ul>
+            </div>
+            <!-- Experience content is end here-->
+           <div class="tab-contents" id="education">
+             <ul>
+               <li>
+                 <span>
+                   2015
+                 </span><br />
+                   10<sup>th</sup> 
+                   Passed Class From CBSE Board. The name of the school is Sorvodaya Bal Vidyalaya D-Block Janak Puri New Delhi.
+                 </span>
+               </li>
+               <li>
+                 <span>
+                   2017
+                 </span><br />
+                Passed Class From CBSE Board. The name of the school is Sorvodaya Bal Vidyalaya D-Block Janak Puri New Delhi.
+               </li>
+               <!--new education -->
+               <li>
+                 <span>
+                   2018
+                 </span><br />
+               I have completed my DCA Course<br />(Diploma in Computer Application) from RIIT INFOTECT PVT. LTD. Lajwanti Garden New Delhi - 46
+               </li>
+               
+               
+               <!----educatoion2-->
+               <li>
+                 <span>
+                   2020
+                 </span><br />
+                 Complete the Graduation from School Of Open Learning <br />(University of Delhi) .
+               </li>
+             </ul>
+           </div>
+          </div>
+        </div>
+      </div/>
+    </div>
+    <!-- Services --->
+ <div class="service" id="service">
+   <div class="container">
+     <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+       <div>
+         <h2>Web Design</h2>
+         <p>
+           I have create wonderfull & amazing web design.
+           
+         </p>
+         <a href="#service">
+         <i class="fa-brands fa-chrome"></i></a>
+       </div>
+       <div>
+         <h2>DCA Tutor</h2>
+         <p>
+           I provide DCA classes and try to improve my skills even more.
+         </p>
+             <input type="checkbox" id="readm">
+       <!-- not work properly so is desable now
+       <div id="read-more">
+           <p>I teach the following subject inside DCA course.
+           </p>
+           <ol>
+             <li>Basic Knowledge Of Computer</li>
+             <li>CorelDraw</li>
+             <li>Adobe Photoshop</li>
+             <li>Adobe Flash</li>
+             <li>Web Design</li>
+             <li>Tally ERP9</li>
+           </ol>
+         </div>-->
+             <a href="#service">
+               <i class="fa-solid fa-chalkboard-user"></i>
+             </a>
+       </div>
+       <div>
+         <h2>PhotoShop</h2>
+         <p>
+          Flyers, posters, visiting cards, graphic designs, logo etc. can be created with the help of Photoshop.
+         </p>
+         <a href="#service"><i class="fa-solid fa-film"></i></a>
+       </div>
+        <div>
+         <h2>CorelDraw</h2>
+         <p>
+          Flyers, posters, visiting cards, graphic designs, logo etc. can be created with the help of Photoshop.
+         </p>
+         <a href="#service"><i class="fa-brands fa-drupal"></i></a>
+       </div>
+        <div>
+         <h2>HTML,CSS, <br />JS</h2>
+         <p>
+         With their help a web site is created. No web site can be created without HTML and with the help of CSS we help in designing our web page.And we use JS to load the web page smooth.
+         </p>
+         <a href="#service"><i class="fa-brands fa-html5"></i> </a>
+          <a href="#service"><i class="fa-brands fa-css3-alt"></i></a>
+           <a href="#service">
+             <i class="fa-brands fa-square-js"></i>
+           </a>
+       </div>
+       <!---new service--->
+     </div>
+   </div>
+ </div>
+  <!-- portfolio --->
+ <div class="portfolio" id="portfolio">
+   <div class="container">
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+       <div class="work">
+         <img src="port1.jpg" alt="Work Image is Here" />
+          <div class="dark">
+            
+          </div>
+         <div class="layer">
+           <h3>Web Design 1</h3>
+           <p>
+             This template created by me helping html, css, & js
+           </p>
+           <a href="#project2">Next Project</a>
+         </div>
+       </div>
+       <!--2nd work -->
+        <div class="work" id="project2">
+         <img src="port2.jpg" alt="Work Image is Here" />
+          <div class="dark">
+            
+          </div>
+           <div class="layer">
+           <h3>Web site</h3>
+           <p>
+             the site created by me 
+           </p>
+           <a href="#project3">Next Project</a>
+         </div>
+       </div>
+       <!---3rd work --->
+        <div class="work" id="project3">
+         <img src="port3.jpg" alt="Work Image is Here" />
+          <div class="dark">
+            
+          </div>
+           <div class="layer">
+           <h3>Web site</h3>
+           <p>
+             the site created by me 
+           </p>
+           <a href="#project4">Next Project</a>
+         </div>
+       </div>
+       <!--4th portfolio -->
+       <div class="work" id="project4">
+         <img src="port4.jpg" alt="Work Image is Here" />
+         <div class="dark">
+            
+          </div>
+          <div class="layer">
+           <h3>Web site</h3>
+           <p>
+             the site created by me 
+           </p>
+           <a href="#project5">Next Project</a>
+         </div>
+       </div>
+       <!-- 5th portfolio -->
+       <div class="work" id="project5">
+         <img src="port5.jpg" alt="Work Image is Here" />
+          <div class="dark">
+            
+          </div>
+           <div class="layer">
+           <h3>Web site</h3>
+           <p>
+             the site created by me 
+           </p>
+           <a href="#project6">Next Project</a>
+         </div>
+       </div>
+       
+       <!----6th portfolio -->
+       <div class="work" id="project6">
+         <img src="port6.jpg" alt="Work Image is Here" />
+          <div class="dark">
+            
+          </div>
+           <div class="layer">
+           <h3>Web site</h3>
+           <p>
+             the site created by me 
+           </p>
+           <a href="#project6">Next Project</a>
+         </div>
+       </div>
+       
+       
+     </div>
+     <!--new button-->
+     
+   </div>
+ </div>
+  <!---- contact info ----->
+ <div class="contact" id="contact">
+   <div class="container">
+     <div class="row">
+       <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1>
+         <p>
+           rohit.kumar.si8700750589@gmail.com
+         </p>
+         <p>
+           +91 8700750589
+         </p>
+         <div class="social-icon">
+           <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+         </div>
+       </div>
+       <div class="contact-right">
+         <form >
+           <input type="text" name="Names" placeholder="Enter Your Name" required/>
+           <input type="email" name="E-Mail" placeholder="Your Email" required/>
+           <textarea name="Massage" rows="6" placeholder="Your Massage" required></textarea>
+           <button type="submit" class="btn btn2">Submit</button>
+         </form>
+       </div>
+     </div>
+   </div>
+   <div class="copyright">
+     <p>Copyright @ Rohit 2022</p>
+   </div>
+ </div>
+    
+    
+    <!-- javascript -->
+    <script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tab){
+      for(tablink of tablinks){
+      //console.log(tablink.classList);
+      tablink.classList.remove('active-link');
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tab');
+      }
+    event.currentTarget.classList.add("active-link");
+     document.getElementById(tab).classList.add("active-tab");
+ 
+    }
+    
+    </script>
+    <!-- menu bar --->
+    <script>
+      var sidemenu = document.getElementById('sidemenu');
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right= "-200px";
+      }
+    </script>
+
+  </body>
+</html>
