@@ -103,6 +103,7 @@ nav ul li a:hover:after{
 .about{
   padding: 80px 0;
   color:#ababab;
+  width:100%;
 }
 .about .col2 h1{
   position: relative;
@@ -146,7 +147,7 @@ nav ul li a:hover:after{
  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.9));
 }
 .about .col2{
-  flex-basis: 60%;
+  flex-basis: 55%;
 }
 .about p{
   margin-top: 55px;
