@@ -128,7 +128,7 @@ nav ul li a:hover:after{
   flex-wrap: wrap;
 }
 .about .col1{
-  flex-basis: 25%;
+  flex-basis: 35%;
   position: relative;
   height:550px;
 }
