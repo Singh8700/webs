@@ -406,9 +406,11 @@ font-weight:bold;
 
 .contact-left{
   flex-basis: 35%;
+  width:35%;
 }
 .contact-right{
   flex-basis:60%;
+  width:60%;
 }
 .contact-left p{
   margin-top:30px;
@@ -518,7 +520,9 @@ from btn2{
     margin-top: 2px;
     font-size: 20px;
   }
-  
+  .contect .left, .contect .right{
+  width:100%;
+  }
   
   
   
