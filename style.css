@@ -8,8 +8,8 @@ html{
 body{
   background:#000000;
   color:#fff;
-  width:100%;
-  
+
+
 }
 body span,body h1{
   text-shadow: 3px 0px 2px rgba(255,255,255,0.4);
@@ -149,7 +149,7 @@ nav ul li a:hover:after{
 .about .col2{
   flex-basis: 60%;
   -webkit-flex-basis:60%;
-  -
+  
 }
 .about p{
   margin-top: 55px;
@@ -187,7 +187,7 @@ nav ul li a:hover:after{
 }
 .about span{
   color:#569656;
-  font-size:22px;
+
   font-weight: 800;
   font-family: Georgia,Verdana;
   font-weight: bold;
@@ -224,10 +224,12 @@ nav ul li a:hover:after{
 }
 .tab-contents{
   display:none;
+  
   transition:display 0.5s;
 }
 .tab-contents p{
   margin-top: -20px;
+  font-size:16px;
 }
 .tab-contents.active-tab{
   display: block;
@@ -404,9 +406,15 @@ nav ul li a:hover:after{
 
 .contact-left{
   flex-basis: 35%;
+  -webkit-flex-basis:35%;
+  width:35%
+    padding:10px;
 }
 .contact-right{
   flex-basis:60%;
+  -webkit-flex-basis:60%;
+  width:60%;
+  padding:10px;
 }
 .contact-left p{
   margin-top:30px;
@@ -452,7 +460,7 @@ from btn2{
 /*---+css for small screen---*/
 @media only screen and (max-width:600px){
   .header{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('mobile.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('img/mobile.jpg');
   }
   .header-text{
     margin-top:100%;
@@ -493,6 +501,8 @@ from btn2{
   
   .contact-left,.contact-right{
     flex-basis:100%;
+    -webkit-flex-basis:100%;
+    width:100%;
   }
   .contact-right{
     text-align: center;
