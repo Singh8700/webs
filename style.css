@@ -534,7 +534,7 @@ from btn2{
   .about .col1{
     flex-basis:100%;
   }
-  .about > p{
+  .about p{
   width:100%;
     background:red;
   }
