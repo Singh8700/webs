@@ -22,7 +22,7 @@ body span,body h1{
   background-repeat: no-repeat;
   background-position: center;
 }
-.container{
+.containers{
   padding:5px 5px;
 }
 nav .icon{
@@ -510,7 +510,7 @@ from btn2{
     margin-top: 2px;
     font-size: 20px;
   }
-  .container{padding: 10px 10%;}
+  .containers{padding: 10px 10%;}
 
 
 
