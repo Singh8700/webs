@@ -102,7 +102,7 @@ nav ul li a:hover:after{
 }
 /* --------about ------*/
 .about{
-  padding: 80px 0;
+  padding: 80px 10px;
   color:#ababab;
 }
 .about .col2 h1{
@@ -235,7 +235,7 @@ nav ul li a:hover:after{
 }
 /*------services -----*/
 .services{
-  padding:30px 0;
+  padding:30px 10px;
  
 }
 .services-list{
@@ -305,7 +305,7 @@ nav ul li a:hover:after{
 }*/
 /*------portfolio------*/
 .portfolio{
-  padding: 50px 0;
+  padding: 50px 10px;
   
 }
 .portfolio .work-list{
@@ -400,6 +400,7 @@ nav ul li a:hover:after{
 }
 
 /*------contact -----*/
+.contact{padding:10px 10%;}
 
 .contact-left{
   flex-basis: 35%;
