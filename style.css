@@ -516,7 +516,7 @@ from btn2{
   }
    .about .col2{
     
-    background: blue;
+
     margin:auto;
      text-align:center;
   }
@@ -545,6 +545,7 @@ from btn2{
   }
   .about .tab-titles p{
     margin-top: 2px;
+    font-size:22px;
    
   }
   
