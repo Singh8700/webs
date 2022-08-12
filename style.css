@@ -402,7 +402,9 @@ nav ul li a:hover:after{
 }
 
 /*------contact -----*/
-.contact{padding:10px 10%;}
+.contact{padding:10px 10%;
+width:100%;
+}
 
 .contact-left{
   flex-basis: 35%;
@@ -498,7 +500,10 @@ from btn2{
     height:auto;
     border-image: 20px;
   }
-  
+  .about .col2{
+    padding:10px;
+    overflow: hidden;
+  }
   .contact-left,.contact-right{
     flex-basis:100%;
     -webkit-flex-basis:100%;
