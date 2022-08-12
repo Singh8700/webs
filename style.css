@@ -23,7 +23,7 @@ body span,body h1{
   background-position: center;
 }
 .container{
-  padding:10px 10%;
+  padding:10px 0px;
 }
 nav .icon{
   display:none;
