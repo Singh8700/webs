@@ -513,9 +513,9 @@ from btn2{
     border-image: 20px;
   }
    .about .col2{
-    border:1px solid red;
-    background: red;
-    margin-left:-15px;
+    
+    background: blue;
+    margin:auto;
   }
 
   .contact-left,.contact-right{
