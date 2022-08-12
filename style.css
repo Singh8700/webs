@@ -161,7 +161,7 @@ font-weight:bold;
   text-shadow: 2px 2px 3px gray;
 }
 .about .col2 h1{
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   color:#fff;
   
@@ -187,7 +187,7 @@ font-weight:bold;
 }
 .about span{
   color:#569656;
-  font-size:28px;
+  font-size:22px;
   font-weight: 800;
   font-family: Georgia,Verdana;
   font-weight: bold;
@@ -195,7 +195,7 @@ font-weight:bold;
 }
 .about li{
   font-family: Georgia,Verdana;
-  font-size:22px;
+  font-size:18px;
 }
 .tab-titles{
   display:flex;
