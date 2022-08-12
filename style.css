@@ -17,7 +17,7 @@ body span,body h1{
 .header{
   width:100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('desktop.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('img/desktop.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
