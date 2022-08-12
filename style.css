@@ -74,18 +74,18 @@ nav ul li a:hover:after{
 }
 .header-text{
   margin-top: 20%;
-  font-size: 30px;
+  font-size: 20px;
 }
 .header-text h1{
-  font-size:60px ;
+  font-size:40px ;
   margin-top: 20px;
 }
 .header-text h1 span{
   color:#9f0f4f;
-  font-size: 75px;
+  font-size: 55px;
 }
 .tb{
-  font-size: 90px;
+  font-size: 45px;
   font-weight: 800;
   position:fixed;
   top:93%;
@@ -102,8 +102,19 @@ nav ul li a:hover:after{
 }
 /* --------about ------*/
 .about{
-  padding: 80px 10px;
+  padding: 30px 2px;
   color:#ababab;
+}
+.row{
+
+  display:flex;
+
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+  width:100%;
+
 }
 .about .col2 h1{
   position: relative;
@@ -121,11 +132,7 @@ nav ul li a:hover:after{
   transition: width 0.5s;
   
 }
-.row{
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
 .about .col1{
   flex-basis: 35%;
   -webkit-flex-basis:35%;
@@ -154,7 +161,7 @@ nav ul li a:hover:after{
   width:60%;
 }
 .about p{
-  margin-top: 55px;
+  margin-top: 53px;
 }
 .about .tab-titles p{
   margin-top: -20px;
@@ -190,7 +197,7 @@ nav ul li a:hover:after{
 .about span{
   color:#569656;
 
-  font-weight: 800;
+  
   font-family: Georgia,Verdana;
   font-weight: bold;
  
@@ -200,7 +207,7 @@ nav ul li a:hover:after{
 }
 .tab-titles{
   display:flex;
-  margin:20px 0 40px;
+  justify-content:space-between;
 }
 .tab-links{
   margin-right: 50px;
@@ -231,7 +238,7 @@ nav ul li a:hover:after{
 }
 .tab-contents p{
   margin-top: -20px;
-  font-size:16px;
+ 
 }
 .tab-contents.active-tab{
   display: block;
@@ -404,8 +411,11 @@ nav ul li a:hover:after{
 }
 
 /*------contact -----*/
-.contact{padding:10px 10%;
+.contact{padding:0px 10px;
 width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 }
 
 .contact-left{
