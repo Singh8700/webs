@@ -510,8 +510,9 @@ from btn2{
   .work-list .work{
     height:70vh;
   }
-  .about .col1{
+  .about .col1, .about .col2{
     flex-basis:100%;
+    width:100%;
   }
   .about .tab-titles p{
     margin-top: 2px;
