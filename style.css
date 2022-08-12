@@ -516,6 +516,7 @@ from btn2{
     
     background: blue;
     margin:auto;
+     text-align:center;
   }
 
   .contact-left,.contact-right{
@@ -538,7 +539,7 @@ from btn2{
   }
   .about p{
   width:100%;
-    background:red;
+   
   }
   .about .tab-titles p{
     margin-top: 2px;
