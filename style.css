@@ -536,6 +536,7 @@ from btn2{
   }
   .about > p{
   width:100%;
+    background:red;
   }
   .about .tab-titles p{
     margin-top: 2px;
