@@ -23,7 +23,7 @@ body span,body h1{
   background-position: center;
 }
 .container{
-  
+  padding:10px 10px;
 }
 nav .icon{
   display:none;
@@ -155,8 +155,8 @@ nav ul li a:hover:after{
 }
 .about .tab-titles p{
   margin-top: -20px;
-  font-size: 25px;
-  font-weight: 800;
+
+font-weight:bold;
   color:#fff;
   text-shadow: 2px 2px 3px gray;
 }
@@ -450,7 +450,7 @@ from btn2{
   margin-top: 20px;
 }
 /*---+css for small screen---*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:900px){
   .header{
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('img/mobile.jpg');
   }
@@ -461,6 +461,9 @@ from btn2{
   .header-text h1{
     font-size: 50px;
   }
+  .container{
+    padding:10px 10%;
+    }
   nav .icon{
     display:block;
     font-size: 50px;
