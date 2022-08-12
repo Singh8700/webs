@@ -534,6 +534,9 @@ from btn2{
   .about .col1{
     flex-basis:100%;
   }
+  .about > p{
+  width:100%;
+  }
   .about .tab-titles p{
     margin-top: 2px;
    
