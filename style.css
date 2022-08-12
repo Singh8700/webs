@@ -128,6 +128,8 @@ nav ul li a:hover:after{
 }
 .about .col1{
   flex-basis: 35%;
+  -webkit-flex-basis:35%;
+  width:35%;
   position: relative;
   height:550px;
 }
@@ -149,20 +151,20 @@ nav ul li a:hover:after{
 .about .col2{
   flex-basis: 60%;
   -webkit-flex-basis:60%;
-  
+  width:60%;
 }
 .about p{
   margin-top: 55px;
 }
 .about .tab-titles p{
   margin-top: -20px;
-  font-weight: 800;
+
   color:#fff;
   text-shadow: 2px 2px 3px gray;
 }
 .about .col2 h1{
   padding-top: 20px;
-  font-weight: 600;
+
   color:#fff;
   
 }
@@ -502,7 +504,7 @@ from btn2{
   }
   .about .col2{
     padding:0px 2px;
-    overflow: hidden;
+    
   }
   .contact-left,.contact-right{
     flex-basis:100%;
@@ -524,7 +526,7 @@ from btn2{
   }
   .about .tab-titles p{
     margin-top: 2px;
-    font-size: 20px;
+   
   }
   
   
