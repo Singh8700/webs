@@ -422,16 +422,18 @@ width:100%;
   flex-basis: 35%;
   -webkit-flex-basis:35%;
   width:35%;
-    padding:10px;
+  margin:auto;
+  padding:0px 5px;
 }
 .contact-right{
   flex-basis:60%;
   -webkit-flex-basis:60%;
   width:60%;
-  padding:10px;
+  padding:0px 5px;
 }
 .contact-left p{
   margin-top:30px;
+  pading:0px 10px;
 }
 .social-icon a{
   text-decoration:none;
