@@ -512,10 +512,12 @@ from btn2{
     height:auto;
     border-image: 20px;
   }
-  .about .col2{
-    padding:0px 2px;
-    
+   .about .col2{
+    border:1px solid red;
+    background: red;
+    margin-left:-15px;
   }
+
   .contact-left,.contact-right{
     flex-basis:100%;
     -webkit-flex-basis:100%;
