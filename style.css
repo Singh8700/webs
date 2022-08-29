@@ -11,6 +11,12 @@ body{
 
 
 }
+.navs{
+display:none;
+}
+.header{
+display:block;
+}
 body span,body h1{
   text-shadow: 3px 0px 2px rgba(255,255,255,0.4);
 }
