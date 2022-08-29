@@ -12,10 +12,10 @@
 }
 /* tablet devices style */
 @media(max-width:900px){
-header nav{
+.header{
 display: none;
 }
-navs{
+.navs{
     position: fixed;
     top:85vh;
     left:0;
@@ -28,21 +28,21 @@ navs{
     align-items: center;
 }
 
-navs ul{
+.navs ul{
     display: flex;
     width:100%;
     align-items: center;
     
     
 }
-navs ul li{
+.navs ul li{
     position: relative;
     width: 20vw;
     height: 8vh;
     z-index: 1;
    
 }
-navs ul li a{
+.navs ul li a{
     position: relative;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ navs ul li a{
     text-align: center;
     font-weight: 500;
 }
-navs ul li a .icon{
+.navs ul li a .icon{
     position: relative;
     display: block;
     line-height: 4vh;
@@ -61,10 +61,10 @@ navs ul li a .icon{
     text-align: center;
     color: #fff;
 }
-navs ul li.active a .icon{
+.navs ul li.active a .icon{
     transform: translateY(-4vh);
 }
-navs ul li a .text{
+.navs ul li a .text{
     position: absolute;
     color:#fff;
     font-weight: 400;
@@ -73,7 +73,7 @@ navs ul li a .text{
     opacity: 0;
     transition: 0.5s;
 }
-navs ul li.active a .text{
+.navs ul li.active a .text{
     opacity: 1;
     font-size: 0.8em;
     font-weight: 800;
@@ -118,19 +118,19 @@ navs ul li.active a .text{
     overflow: hidden;
     box-shadow: 0px -10px 0 0 #fff;
 }
-navs ul li:nth-child(0).active ~ .indicator{
+.navs ul li:nth-child(0).active ~ .indicator{
     transform: translateX(calc(20vw * 0));
 }
-navs ul li:nth-child(2).active ~ .indicator{
+.navs ul li:nth-child(2).active ~ .indicator{
     transform: translateX(calc(20vw * 1));
 }
-nav ul li:nth-child(3).active ~ .indicator{
+.nav ul li:nth-child(3).active ~ .indicator{
     transform: translateX(calc(20vw * 2));
 }
-navs ul li:nth-child(4).active ~ .indicator{
+.navs ul li:nth-child(4).active ~ .indicator{
     transform: translateX(calc(20vw * 3));
 }
-navs ul li:nth-child(5).active ~ .indicator{
+.navs ul li:nth-child(5).active ~ .indicator{
     transform: translateX(calc(20vw * 4));
 }
 }
