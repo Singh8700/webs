@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-
+<link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   <!--CDN LINK FOR FAV ICON--->
@@ -21,6 +21,66 @@
 </head>
 
   <body>
+<!--nav bar for mobile -->
+   <nav>
+        <ul>
+            <li class="list active">
+                <a href="#header">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text active">
+                        Home
+                    </span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#service">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                       Services
+                    </span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#gallery">
+                    <span class="icon">
+                        <ion-icon name="camera-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        Gallery
+                    </span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#about">
+                    <span class="icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        About
+                    </span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#contact">
+                    <span class="icon">
+                        <ion-icon name="podium-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        Contact
+                    </span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+        
+    </nav>
+    
+
+<!--end of nav bar-->
     <div class="header" id="header">
       <div class="containers">
         <nav>
@@ -426,6 +486,12 @@
         sidemenu.style.right= "-200px";
       }
     </script>
-
+<!-- js -->
+    
+  <script src="main.js"></script>
+    
+    <!-- icon tag link-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
